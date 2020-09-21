@@ -1,0 +1,15 @@
+.main {
+  font-family: 'Cantarell', sans-serif;
+
+  &__title {
+    text-align: end;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}

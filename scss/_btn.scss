@@ -1,0 +1,23 @@
+.btn {
+  display: flex;
+  width: 200px;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: #01acac;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
+.btn-top {
+  height: 45px;;
+}
