@@ -1,0 +1,22 @@
+.nav {
+  font-family: 'Roboto', sans-serif;
+
+  &__item {
+    display: inline-block;
+    padding: 18px 113px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+      color: $hover-color;
+    }
+
+    &_style {
+      border-width: 0 3px 0 3px;
+      border-color: #607d8b;
+      border-style: solid;
+    }
+  }
+}

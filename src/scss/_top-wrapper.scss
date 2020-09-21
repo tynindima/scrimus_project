@@ -1,0 +1,10 @@
+.top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+
+  &__img {
+    height: 145px;
+    width: 231px;
+  }
+}

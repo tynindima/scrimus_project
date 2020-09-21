@@ -1,0 +1,13 @@
+.toolbar {
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  &__input {
+    display: block;
+    width: 200px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-left: 20px;
+  }
+}
